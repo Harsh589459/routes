@@ -39,10 +39,15 @@ const requestHandler=(req,res)=>{
 
 }
 
+//one way to export
 module.exports = requestHandler;
 
+//second way to export
 // module.exports={
 //     handler:requestHandler,
 //     someText:"som hard coded text"
 // }
+
+//third way to export
 // module.exports.handler =requestHandler;
+// module.exports.someText="fjsldjfkldsj"
